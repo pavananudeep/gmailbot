@@ -11,8 +11,10 @@ x=position[0]
 y=position[1]
 pt.moveTo(x+10,y+27)
 pt.click()
-pt.typewrite("pavananudeepmotiki@gmail.com")
+email=input("Enter email")
+pt.typewrite(email)
 pt.typewrite("\n")
 sleep(5)
-pt.typewrite("Manjula@9")
+password=input("Enter password")
+pt.typewrite(password)
 pt.typewrite("\n")
