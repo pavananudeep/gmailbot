@@ -32,10 +32,10 @@ def login():
     global x,y
     pt.moveTo(x+10,y+27)
     pt.click()
-    pt.typewrite("pavananudeepmotiki@gmail.com")
+    pt.typewrite("email")
     pt.typewrite("\n")
     sleep(5)
-    pt.typewrite("Manjula@9")
+    pt.typewrite("password")
     pt.typewrite("\n")
 login()
 
